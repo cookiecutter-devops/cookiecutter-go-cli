@@ -1,0 +1,5 @@
+log:
+  level: "info" # 日志级别: debug, info, warn, error, fatal, panic
+  file: "" # 日志输出文件路径，留空则不输出到文件
+  caller: false # 是否在日志中包含调用者信息（文件和行号）
+  json: false # 是否以JSON格式输出日志
