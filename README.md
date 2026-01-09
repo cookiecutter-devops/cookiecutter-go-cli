@@ -29,6 +29,7 @@ cookiecutter gh:cookiecutter-devops/cookiecutter-go-cli
 go env -w GOSUMDB=off
 go mod tidy
 
+# 需要先将代码上传到仓库，否则 Git ref: HEAD-DIRTY查询不到数值
 make build
 ```
 
@@ -37,7 +38,7 @@ make build
 
 ### 配置
 
-conifg.yaml 文件为项目的配置文件，默认内容如下：
+conifg.yml 文件为项目的配置文件，默认内容如下：
 
 ```yaml
 log:
