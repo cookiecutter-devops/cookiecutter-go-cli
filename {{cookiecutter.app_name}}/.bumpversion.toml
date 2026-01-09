@@ -1,0 +1,6 @@
+[tool.bumpversion]
+current_version = "{{cookiecutter.init_version}}"
+allow_dirty = true
+
+[[tool.bumpversion.files]]
+filename = "./version/version.go"
