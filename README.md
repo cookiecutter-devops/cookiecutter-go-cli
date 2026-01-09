@@ -100,21 +100,21 @@ $ ./bin/git-demo logtest --log-level debug
 $ ./bin/git-demo logtest --log-level warn
 
 # 使用配置文件
-$ ./bin/git-demo logtest -c bin/config.yml
+$ ./bin/git-demo logtest -c config.yml
 
 # 显示调用者信息
-$ ./bin/git-demo logtest -c bin/config.yml --log-caller
+$ ./bin/git-demo logtest -c config.yml --log-caller
 
 # JSON格式日志
 $ ./bin/git-demo logtest --log-json
 
 # 日志文件输出
-$ ./bin/git-demo logtest -c bin/config.yml --log-file bin/log.log
+$ ./bin/git-demo logtest -c config.yml --log-file bin/log.log
 
 # 使用 JSON 格式输出日志
 $ ./bin/git-demo logtest --log-json
 
 # 结合其他日志选项
 $ ./bin/git-demo logtest --log-level debug --log-json --log-caller
-$ ./bin/git-demo logtest -c bin/config.yml --log-json --log-file bin/log.json
+$ ./bin/git-demo logtest -c config.yml --log-json --log-file bin/log.json
 ```
